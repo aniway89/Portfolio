@@ -198,13 +198,19 @@ button:focus{
 
 .Blogcard{
   /* border-bottom: 1px solid white; */
-  /* border-left: 2px solid white; */
+  border-left: 2px solid rgba(255, 255, 255, 0.37);
+  transition-duration: 0.3s;
+  cursor: pointer;
+  &:hover{
+    border-left: 2px solid white;
+    transition-duration: 0.3s;
+  }
   /* background-color: rgba(44, 44, 44, 0.322); */
   padding-left: 20px;
 
 }
-.Blog-card-container{
-  border-left: 2px solid white;
+.Blogcard:hover .post-titel{
+  color: var(--color-zinc-200);
 }
 .read-now{
   &:hover{
@@ -216,4 +222,50 @@ button:focus{
 .ror-cont{
   padding: px;
   /* border-top: 1.2px solid gray; */
+}
+.achivements{
+  flex-wrap: wrap;
+}
+.achievementcard{
+  width:49% ;
+}
+.description{
+  width: 100%;
+}
+.achievementcard, .icon-lol ,.highlight-card{
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.201);
+  transition-duration: 0.4s;
+}
+.highlight-card:hover{
+  border: 1px solid rgba(255, 255, 255, 0.411);
+    transition-duration: 0.4s;
+  background-color: rgba(255, 255, 255, 0.046);
+}
+.achievementcard:hover .icon-lol{
+  border: 1px solid rgba(255, 255, 255, 0.411);
+  transition-duration: 0.4s;
+}
+.achievementcard:hover {
+  border: 1px solid rgba(255, 255, 255, 0.411);
+  transition-duration: 0.4s;
+  background-color: rgba(255, 255, 255, 0.046);
+}
+.achievementcard:hover .date-lol {
+  color: var(--color-gray-200);
+  transition-duration: 0.4s;
+}
+.Navbar{
+ position: fixed;
+  top: 50%;
+  right: 0;/* or right: 0, depending on your layout */
+  transform: translateY(-50%);
+}
+.links{
+  cursor: pointer;
+  transition-duration: .4s;
+  &:hover{
+    transition-duration: .4s;
+    scale: 1.2;
+  }
 }

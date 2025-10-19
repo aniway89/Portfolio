@@ -45,7 +45,6 @@ export default function Blogcard({
 
   return (
     <div className={`Blogcard flex-col items-baseline mt-10 ${className}`}>
-      <div className="circle absolute -ml-6.5 mt-1" />
 
       <div
         ref={dateRef}

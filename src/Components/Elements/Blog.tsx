@@ -13,6 +13,11 @@ function Blog() {
             title='The recent hack i got to imprve my code.'
             description='Few AI and libraries i found to refine my code more better then i code.'
         />
+        <Blogcard
+            date='12 august 2025'
+            title='The recent hack i got to imprve my code.'
+            description='Few AI and libraries i found to refine my code more better then i code.'
+        />
 
 
     </div>
