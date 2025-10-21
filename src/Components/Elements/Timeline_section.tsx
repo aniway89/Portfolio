@@ -14,12 +14,14 @@ export function Component() {
       <TabItem
         active
         title=" Experience"
+        className="none"
        
       >
        <Experience/>
       </TabItem>
       <TabItem
         title="Education"
+        className="none"
         
       >
        <Education/>

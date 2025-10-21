@@ -52,7 +52,7 @@ function Highlights() {
         <HighlightCard 
           icon={GoTrophy}
           number="Top 10"
-          text="Global Hackathon"
+          text="Top 10 in 21+ Hackathons"
         />
         
         <HighlightCard 

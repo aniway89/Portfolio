@@ -15,7 +15,7 @@ function Profile() {
             </div>
         </div>
         <div className="right flex-col items-center">
-            <div className="links mb-5 flex text-xl gap-6 cursor-pointer text-gray-300">
+            <div className="link mb-5 flex text-xl gap-6 cursor-pointer text-gray-300">
                <a href="https://github.com/aniway89/" className="link"><i className="bi bi-github"></i></a>
                <a href="https://www.linkedin.com/in/ayan-khan-04a5b7388/" className="link"><i className="bi bi-linkedin"></i></a>
                <a href="https://discord.gg/spNu94g32q" className="link"><i className="bi bi-discord"></i></a>

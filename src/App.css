@@ -171,6 +171,27 @@
 button:focus{
   outline: none;
 }
+/* Remove focus outline from Flowbite tab buttons */
+.Tab-Button-bu button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.Tab-Button-bu button:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Remove focus styles from tab items */
+[role="tab"]:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+[role="tab"]:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
 .active{
   outline: none;
   color: white;
